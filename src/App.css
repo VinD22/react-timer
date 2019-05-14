@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  margin: 0px;
+}
+
+.App-header {
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 50px;
+  color: #f3f3f3;
+}
+
+.App-header h3 {
+  color: #ffce00;
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.App-header h3 span {
+  color: #f3f3f3;
+  font-weight: 300;
+}
+
+.time-view {
+  background-color: rgb(155, 154, 154);
+  padding: 15px;
+}
+
+.time-view .time {
+  color: #f3f3f3;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin: 0px;
+  border-bottom: 1px dashed #aaa;
+  outline: none;
+  position: relative;
+}
+
+button.start {
+  background-color: #ffce00;
+}
+
+button.lap {
+  background-color: #00ffce;
+}
+
+button.pause {
+  background-color: #0085ca;
+}
+
+button.stop {
+  background-color: rgb(185, 16, 10);
+}
+
+button:disabled {
+  background-color: #ccc;
+  color: #aaa;
+}
+
+.lap {
+  padding: 15px;
+  border-bottom: 1px dashed #ccc;
+}
